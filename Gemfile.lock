@@ -79,9 +79,6 @@ GEM
       railties (>= 4.0.1)
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
-    jbuilder (2.8.0)
-      activesupport (>= 4.2.0)
-      multi_json (>= 1.2)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -99,7 +96,6 @@ GEM
     mini_portile2 (2.4.0)
     minitest (5.11.3)
     msgpack (1.2.8)
-    multi_json (1.13.1)
     multipart-post (2.0.0)
     nio4r (2.3.1)
     nokogiri (1.10.1)
@@ -176,9 +172,6 @@ GEM
     thor (0.20.3)
     thread_safe (0.3.6)
     tilt (2.0.9)
-    turbolinks (5.2.0)
-      turbolinks-source (~> 5.2)
-    turbolinks-source (5.2.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
     uglifier (4.1.20)
@@ -200,7 +193,6 @@ DEPENDENCIES
   bugsnag-api
   coffee-rails
   hamlit-rails
-  jbuilder
   listen (>= 3.0.5, < 3.2)
   pg
   pry-nav
@@ -209,7 +201,6 @@ DEPENDENCIES
   sass-rails
   spring
   spring-watcher-listen (~> 2.0.0)
-  turbolinks
   tzinfo-data
   uglifier
   web-console (>= 3.3.0)
