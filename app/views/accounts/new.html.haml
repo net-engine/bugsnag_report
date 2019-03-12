@@ -1,4 +1,8 @@
+%p
+  Login Bugsnag and go to
+  = link_to 'Personal auth tokens', 'https://app.bugsnag.com/settings/my-account', target: '_blank'
+  to get the account token
 = form_tag accounts_path, method: :post do
   = label_tag :account_token
   = text_field_tag :account_token
-  = submit_tag
+  = submit_tag 'Get started'
