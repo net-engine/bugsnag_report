@@ -1,0 +1,3 @@
+%h3 Choose an organization
+- @organizations.each do |organization|
+  %p= link_to organization[:name], account_organization_projects_path(params[:account_id], organization[:id])
